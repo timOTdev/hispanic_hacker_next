@@ -11,9 +11,9 @@ const Wrapper = styled.footer`
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 -8px 6px -6px black;
-	position: absolute;
+	position: relative;
+	bottom: 0;
 	width: 100%;
-	bottom: 0px;
 `;
 const Copyright = styled.div`
 	font-size: 2rem;
@@ -25,8 +25,8 @@ export default function Footer() {
 		<Wrapper>
 			<Copyright>
 				<p>
-					Made with coffee, cumbia, and care. <FcLike />{" "}
-					{new Date().getFullYear()}
+					Made with coffee, cumbia, and care. With <FcLike /> in&nbsp;
+					{new Date().getFullYear()}.
 				</p>
 			</Copyright>
 			<Socials>

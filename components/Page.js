@@ -26,6 +26,10 @@ const GlobalStyles = createGlobalStyle`
     line-height:2;
     background: var(--pageContentColor);
   }
+  h1 { font-size: 2.8rem; }
+  h2 { font-size: 2.4rem; }
+  h3 { font-size: 2rem; }
+  p { font-size: 1.6rem}
   a {
     text-decoration: none;
     color: var(---grey);
@@ -35,18 +39,21 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-const Wrapper = styled.div`
-	text-align: center;
+const Section = styled.section``;
+const ChildrenWrapper = styled.div`
+	width: 90%;
+	margin: 0 auto;
+	flex: 1;
 `;
 
 export default function Page({ children }) {
 	return (
-		<Wrapper>
+		<Section>
 			<GlobalStyles />
 			<Header />
-			{children}
+			<ChildrenWrapper>{children}</ChildrenWrapper>
 			<Footer />
-		</Wrapper>
+		</Section>
 	);
 }
 
