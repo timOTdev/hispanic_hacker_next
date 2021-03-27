@@ -21,7 +21,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: var(--pageFontColor);
     line-height:2;
     background: var(--pageContentColor);
@@ -29,7 +29,6 @@ const GlobalStyles = createGlobalStyle`
   h1 { font-size: 2.8rem; }
   h2 { font-size: 2.4rem; }
   h3 { font-size: 2rem; }
-  p { font-size: 1.6rem}
   a {
     text-decoration: none;
     color: var(---grey);

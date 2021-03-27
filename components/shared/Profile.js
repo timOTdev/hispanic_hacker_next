@@ -7,8 +7,8 @@ const Aside = styled.aside`
 	text-align: center;
 	font-size: 2rem;
 	min-width: 25%;
-	a {
-		font-size: 1.6rem;
+	p {
+		font-size: 1.8rem;
 	}
 `;
 const ProfileLinks = styled.span`
@@ -34,15 +34,14 @@ export default function Profile(props) {
 			<h2>{props.name}</h2>
 			<ProfileLinks>
 				<a href={props.linkedin} target="_blank">
-					<LinkedIn /> <span>LinkedIn</span>
+					<LinkedIn size={30} />
 				</a>
 				<a
-					src={props.email}
 					href={`mailto:${props.email}`}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<FaEnvelope /> <span>Email</span>
+					<FaEnvelope size={30} />
 				</a>
 			</ProfileLinks>
 			<p>{props.bio}</p>
