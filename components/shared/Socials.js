@@ -32,6 +32,7 @@ const Youtube = styled(FaYoutubeSquare)`
 const Slack = styled(FaSlackHash)`
 	color: darkslategray;
 	background: linear-gradient(90deg, #36c5f0, #2eb67d, #e01e5a, #ecb22e);
+	border-radius: 3px;
 `;
 const Facebook = styled(FaFacebookSquare)`
 	color: #1773ea;

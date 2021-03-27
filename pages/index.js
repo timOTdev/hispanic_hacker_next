@@ -1,3 +1,3 @@
 export default function IndexPage() {
-  return <></>;
+	return <h1>Welcome to Hispanic Hackers!</h1>;
 }

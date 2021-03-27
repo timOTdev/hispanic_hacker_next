@@ -14,7 +14,7 @@ export default function globals() {
 			alt: "Hispanic Hackers Slack",
 		},
 		instagram: {
-			url: "https://www.instagram.com/travel_Dev",
+			url: "https://www.instagram.com/",
 			alt: "Hispanic Hackers Instagram",
 		},
 		facebook: {

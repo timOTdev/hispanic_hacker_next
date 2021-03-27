@@ -44,7 +44,6 @@ export default function Page({ children }) {
 		<Wrapper>
 			<GlobalStyles />
 			<Header />
-			<h2>My Page</h2>
 			{children}
 			<Footer />
 		</Wrapper>
