@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Link from "next/link";
 import Image from "next/image";
-import Socials from "./Socials";
-import Menus from "./Menus";
+import Socials from "./shared/Socials";
+import Menus from "./shared/Menus";
 
 const Wrapper = styled.header`
 	display: flex;
@@ -15,7 +15,6 @@ const Wrapper = styled.header`
 
 const Logo = styled.section`
 	display: flex;
-	align-items: center;
 	width: 10%;
 `;
 

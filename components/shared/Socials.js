@@ -8,12 +8,13 @@ import {
 	FaLinkedin,
 	FaTwitterSquare,
 } from "react-icons/fa";
-import globals from "./data";
+import globals from "../data";
 
 const Section = styled.section`
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	align-content: center;
 	width: 30%;
 
 	a {
