@@ -35,7 +35,37 @@ export default function globals() {
 		},
 	};
 
+	const profiles = {
+		eddy: {
+			name: "Eddy Reyes",
+			linkedin: "https://www.linkedin.com/in/ereyes01/",
+			email: "hispanichackersboard@gmail.com",
+			bio: "Founder/Organizer of Hispanic Hackers.",
+		},
+		james: {
+			name: "James Lockwood",
+			linkedin: "https://www.linkedin.com/in/james-lockwood/",
+			email: "ksjjl05@gmail.com",
+			bio:
+				"My name is James Lockwood. I’m a Front End Developer and Austin is my base of operations. As an active participant in my local tech community, I love bringing people together. Whether it be with Hispanic Hackers or Prospanica, I’m dedicated to paying forward my skills to the next generation of techies. I love the outdoors, my black cat, cooking, and traveling around the United States.",
+		},
+		laura: {
+			name: "Laura Evans",
+			linkedin: "https://www.linkedin.com/in/lauraevans0218/",
+			email: "hispanichackersboard@gmail.com",
+			bio: "Insert bio here.",
+		},
+		tim: {
+			name: "Timothy Hoang",
+			linkedin: "https://www.linkedin.com/in/timothyhoang/",
+			email: "hispanichackersboard@gmail.com",
+			bio:
+				"Hi everyone, I'm Tim! I'm a developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. I enjoy sharing what I know and helping others suceed. I love coding, cryptocurrency, staying active, spending time outdoors, and traveling around the world. Feel free to connect with me on LinkedIn!",
+		},
+	};
+
 	return {
 		socials,
+		profiles,
 	};
 }
