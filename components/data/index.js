@@ -64,8 +64,36 @@ export default function globals() {
 		},
 	};
 
+	const capitalFactory = {
+		home: {
+			url: "https://www.capitalfactory.com",
+			alt: "Capital Factory Home",
+		},
+		twitter: {
+			url: "https://twitter.com/CapitalFactory",
+			alt: "Capital Factory Twitter",
+		},
+		facebook: {
+			url: "https://www.facebook.com/capitalfactory/",
+			alt: "Capital Factory Facebook",
+		},
+		linkedin: {
+			url: "https://www.linkedin.com/company/capital-factory/",
+			alt: "Capital Factory LinkedIn",
+		},
+		angellist: {
+			url: "https://angel.co/company/capitalfactory",
+			alt: "Capital Factory AngelList",
+		},
+		youtube: {
+			url: "https://www.youtube.com/channel/UCcMqabIuFcIA_B_AtV4u0DQ",
+			alt: "Capital Factory Youtube",
+		},
+	};
+
 	return {
 		socials,
 		profiles,
+		capitalFactory,
 	};
 }

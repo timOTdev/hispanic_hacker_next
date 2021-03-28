@@ -30,7 +30,6 @@ const GlobalStyles = createGlobalStyle`
   h2 { font-size: 2.4rem; }
   h3 { font-size: 2rem; }
   a {
-    text-decoration: none;
     color: var(---grey);
   }
   a:hover {
