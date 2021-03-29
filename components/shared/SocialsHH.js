@@ -62,50 +62,50 @@ export default function Socials() {
 	return (
 		<Section>
 			<a
-				href={globals().socials.meetup.url}
-				alt={globals().socials.meetup.alt}
+				href={globals().socialsHH.meetup.url}
+				alt={globals().socialsHH.meetup.alt}
 				target="_blank"
 			>
 				<Meetup size={40} />
 			</a>
 			<a
-				href={globals().socials.youtube.url}
-				alt={globals().socials.youtube.alt}
+				href={globals().socialsHH.youtube.url}
+				alt={globals().socialsHH.youtube.alt}
 				target="_blank"
 			>
 				<Youtube size={40} />
 			</a>
 			<a
-				href={globals().socials.slack.url}
-				alt={globals().socials.slack.alt}
+				href={globals().socialsHH.slack.url}
+				alt={globals().socialsHH.slack.alt}
 				target="_blank"
 			>
 				<Slack size={40} />
 			</a>
 			<a
-				href={globals().socials.instagram.url}
-				alt={globals().socials.instagram.alt}
+				href={globals().socialsHH.instagram.url}
+				alt={globals().socialsHH.instagram.alt}
 				target="_blank"
 			>
 				<Instagram size={40} />
 			</a>
 			<a
-				href={globals().socials.facebook.url}
-				alt={globals().socials.facebook.alt}
+				href={globals().socialsHH.facebook.url}
+				alt={globals().socialsHH.facebook.alt}
 				target="_blank"
 			>
 				<Facebook size={40} />
 			</a>
 			<a
-				href={globals().socials.linkedin.url}
-				alt={globals().socials.linkedin.alt}
+				href={globals().socialsHH.linkedin.url}
+				alt={globals().socialsHH.linkedin.alt}
 				target="_blank"
 			>
 				<LinkedIn size={40} />
 			</a>
 			<a
-				href={globals().socials.twitter.url}
-				alt={globals().socials.twitter.alt}
+				href={globals().socialsHH.twitter.url}
+				alt={globals().socialsHH.twitter.alt}
 				target="_blank"
 			>
 				<Twitter size={40} />

@@ -20,50 +20,50 @@ export default function SocialsCF() {
 	return (
 		<Socials>
 			<a
-				href={globals().capitalFactory.home.url}
-				alt={globals().capitalFactory.home.alt}
+				href={globals().socialsCF.home.url}
+				alt={globals().socialsCF.home.alt}
 				target="_blank"
 			>
 				<FaHome size={40} />
 			</a>
 			<a
-				href={globals().capitalFactory.home.url}
-				alt={globals().capitalFactory.home.alt}
+				href={globals().socialsCF.home.url}
+				alt={globals().socialsCF.home.alt}
 				target="_blank"
 			>
 				<FaMeetup size={40} />
 			</a>
 			<a
-				href={globals().capitalFactory.twitter.url}
-				alt={globals().capitalFactory.twitter.alt}
+				href={globals().socialsCF.twitter.url}
+				alt={globals().socialsCF.twitter.alt}
 				target="_blank"
 			>
 				<FaTwitterSquare size={40} />
 			</a>
 			<a
-				href={globals().capitalFactory.facebook.url}
-				alt={globals().capitalFactory.facebook.alt}
+				href={globals().socialsCF.facebook.url}
+				alt={globals().socialsCF.facebook.alt}
 				target="_blank"
 			>
 				<FaFacebookSquare size={40} />
 			</a>
 			<a
-				href={globals().capitalFactory.linkedin.url}
-				alt={globals().capitalFactory.linkedin.alt}
+				href={globals().socialsCF.linkedin.url}
+				alt={globals().socialsCF.linkedin.alt}
 				target="_blank"
 			>
 				<FaLinkedin size={40} />
 			</a>
 			<a
-				href={globals().capitalFactory.angellist.url}
-				alt={globals().capitalFactory.angellist.alt}
+				href={globals().socialsCF.angellist.url}
+				alt={globals().socialsCF.angellist.alt}
 				target="_blank"
 			>
 				<FaAngellist size={40} />
 			</a>
 			<a
-				href={globals().capitalFactory.youtube.url}
-				alt={globals().capitalFactory.youtube.alt}
+				href={globals().socialsCF.youtube.url}
+				alt={globals().socialsCF.youtube.alt}
 				target="_blank"
 			>
 				<FaYoutubeSquare size={40} />

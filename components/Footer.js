@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
-import Socials from "./shared/Socials";
+import SocialsHH from "./shared/SocialsHH";
 import Menus from "./shared/Menus";
 import { FcLike } from "react-icons/fc";
 
@@ -29,12 +29,12 @@ export default function Footer() {
 					{new Date().getFullYear()}.
 				</p>
 			</Copyright>
-			<Socials>
+			<SocialsHH>
 				<a href="">Meetup</a>
 				<a href="">Slack</a>
 				<a href="">Youtube</a>
 				<a href="">Instagram</a>
-			</Socials>
+			</SocialsHH>
 			<Menus>
 				<Link href="/events">Events</Link>
 				<Link href="/about">About</Link>

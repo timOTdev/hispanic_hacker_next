@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
-import Socials from "./shared/Socials";
+import SocialsHH from "./shared/SocialsHH";
 import Menus from "./shared/Menus";
 
 const Wrapper = styled.section`
@@ -28,7 +28,7 @@ export default function Header() {
 					height={100}
 				/>
 			</Logo>
-			<Socials />
+			<SocialsHH />
 			<Menus />
 		</Wrapper>
 	);

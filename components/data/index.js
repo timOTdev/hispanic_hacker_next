@@ -1,5 +1,5 @@
 export default function globals() {
-	const socials = {
+	const socialsHH = {
 		meetup: {
 			url: "https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/",
 			alt: "Hispanic Hackers Meetup",
@@ -35,7 +35,7 @@ export default function globals() {
 		},
 	};
 
-	const profiles = {
+	const profilesHH = {
 		eddy: {
 			name: "Eddy Reyes",
 			linkedin: "https://www.linkedin.com/in/ereyes01/",
@@ -64,7 +64,108 @@ export default function globals() {
 		},
 	};
 
-	const capitalFactory = {
+	const eventsHH = {
+		2021: [
+			{
+				month: "January",
+				name: "Hispanic Hackers Yearly Kickoff",
+				date: "January 26th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/275732760/",
+			},
+			{
+				month: "February",
+				name: "Learn to Code: React",
+				date: " February 23rd, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319236/",
+			},
+			{
+				month: "March",
+				name: "Whiteboarding in March",
+				date: "March 23rd, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319492/",
+			},
+			{
+				month: "April",
+				name: "Demo Night",
+				date: "April 27th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319828/",
+			},
+			{
+				month: "May",
+				name: "Learn to Code: Python",
+				date: "May 25th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320052/",
+			},
+			{
+				month: "June",
+				name: "Resume and Interview Workshop",
+				date: "June 22nd, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320206/",
+			},
+			{
+				month: "July",
+				name: "How to Build a Startup",
+				date: "July 27th, 2021 ",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320212/",
+			},
+			{
+				month: "August",
+				name: "Whiteboarding in August",
+				date: "August 24th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320219/",
+			},
+			{
+				month: "September",
+				name: "Struggle before success",
+				date: "September 28th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320227/",
+			},
+			{
+				month: "October",
+				name: "Let's Co-Work",
+				date: "October 26th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320236/",
+			},
+			{
+				month: "November",
+				name: "Learn to Code: HTML/CSS/JS/Bootstrap",
+				date: "November 23rd, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320247/",
+			},
+			{
+				month: "December",
+				name: "Game event: Jackbox, Among Us",
+				date: "December 28th, 2021",
+				time: "7-9pm",
+				meetup:
+					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320255/",
+			},
+		],
+	};
+
+	const socialsCF = {
 		home: {
 			url: "https://www.capitalfactory.com",
 			alt: "Capital Factory Home",
@@ -92,8 +193,9 @@ export default function globals() {
 	};
 
 	return {
-		socials,
-		profiles,
-		capitalFactory,
+		socialsHH,
+		profilesHH,
+		eventsHH,
+		socialsCF,
 	};
 }

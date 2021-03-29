@@ -37,38 +37,38 @@ export default function AboutPage() {
 			<ExecutiveTeam>
 				<Profile
 					image="/static/images/eddy.jpg"
-					name={globals().profiles.eddy.name}
-					linkedin={globals().profiles.eddy.linkedin}
-					email={globals().profiles.eddy.email}
-					bio={globals().profiles.eddy.bio}
+					name={globals().profilesHH.eddy.name}
+					linkedin={globals().profilesHH.eddy.linkedin}
+					email={globals().profilesHH.eddy.email}
+					bio={globals().profilesHH.eddy.bio}
 				/>
 				<Profile
 					image="/static/images/james.jpg"
-					name={globals().profiles.james.name}
-					linkedin={globals().profiles.james.linkedin}
-					email={globals().profiles.james.email}
-					bio={globals().profiles.james.bio}
+					name={globals().profilesHH.james.name}
+					linkedin={globals().profilesHH.james.linkedin}
+					email={globals().profilesHH.james.email}
+					bio={globals().profilesHH.james.bio}
 				/>
 				<Profile
 					image="/static/images/laura.jpg"
-					name={globals().profiles.laura.name}
-					linkedin={globals().profiles.laura.linkedin}
-					email={globals().profiles.laura.email}
-					bio={globals().profiles.laura.bio}
+					name={globals().profilesHH.laura.name}
+					linkedin={globals().profilesHH.laura.linkedin}
+					email={globals().profilesHH.laura.email}
+					bio={globals().profilesHH.laura.bio}
 				/>
 				<Profile
 					image="/static/images/tim.jpg"
-					name={globals().profiles.tim.name}
-					linkedin={globals().profiles.tim.linkedin}
-					email={globals().profiles.tim.email}
-					bio={globals().profiles.tim.bio}
+					name={globals().profilesHH.tim.name}
+					linkedin={globals().profilesHH.tim.linkedin}
+					email={globals().profilesHH.tim.email}
+					bio={globals().profilesHH.tim.bio}
 				/>
 			</ExecutiveTeam>
 			<h1>Join the Team or Get Involved</h1>
 			<RecruitMessage>
 				<a
-					src={globals().profiles.tim.email}
-					href={`mailto:${globals().profiles.tim.email}`}
+					src={globals().profilesHH.tim.email}
+					href={`mailto:${globals().profilesHH.tim.email}`}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
