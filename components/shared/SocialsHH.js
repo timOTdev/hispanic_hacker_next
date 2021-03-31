@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {
 	FaMeetup,
-	FaYoutubeSquare,
+	FaYoutube,
 	FaSlackHash,
 	FaInstagram,
 	FaFacebookSquare,
@@ -26,7 +26,7 @@ const Section = styled.section`
 const Meetup = styled(FaMeetup)`
 	color: #e61b3e;
 `;
-const Youtube = styled(FaYoutubeSquare)`
+const Youtube = styled(FaYoutube)`
 	color: #f70000;
 `;
 const Slack = styled(FaSlackHash)`
@@ -59,56 +59,49 @@ const Instagram = styled(FaInstagram)`
 `;
 
 export default function Socials() {
+	const { socialsHH } = globals();
 	return (
 		<Section>
-			<a
-				href={globals().socialsHH.meetup.url}
-				alt={globals().socialsHH.meetup.alt}
-				target="_blank"
-			>
-				<Meetup size={40} />
+			<a href={socialsHH.meetup.url} alt={socialsHH.meetup.alt} target="_blank">
+				<Meetup size={40} title={socialsHH.meetup.alt} />
+			</a>
+			<a href={socialsHH.slack.url} alt={socialsHH.slack.alt} target="_blank">
+				<Slack size={40} title={socialsHH.slack.alt} />
 			</a>
 			<a
-				href={globals().socialsHH.youtube.url}
-				alt={globals().socialsHH.youtube.alt}
+				href={socialsHH.youtube.url}
+				alt={socialsHH.youtube.alt}
 				target="_blank"
 			>
-				<Youtube size={40} />
+				<Youtube size={40} title={socialsHH.youtube.alt} />
 			</a>
 			<a
-				href={globals().socialsHH.slack.url}
-				alt={globals().socialsHH.slack.alt}
+				href={socialsHH.instagram.url}
+				alt={socialsHH.instagram.alt}
 				target="_blank"
 			>
-				<Slack size={40} />
+				<Instagram size={40} title={socialsHH.instagram.alt} />
 			</a>
 			<a
-				href={globals().socialsHH.instagram.url}
-				alt={globals().socialsHH.instagram.alt}
+				href={socialsHH.facebook.url}
+				alt={socialsHH.facebook.alt}
 				target="_blank"
 			>
-				<Instagram size={40} />
+				<Facebook size={40} title={socialsHH.facebook.alt} />
 			</a>
 			<a
-				href={globals().socialsHH.facebook.url}
-				alt={globals().socialsHH.facebook.alt}
+				href={socialsHH.linkedin.url}
+				alt={socialsHH.linkedin.alt}
 				target="_blank"
 			>
-				<Facebook size={40} />
+				<LinkedIn size={40} title={socialsHH.linkedin.alt} />
 			</a>
 			<a
-				href={globals().socialsHH.linkedin.url}
-				alt={globals().socialsHH.linkedin.alt}
+				href={socialsHH.twitter.url}
+				alt={socialsHH.twitter.alt}
 				target="_blank"
 			>
-				<LinkedIn size={40} />
-			</a>
-			<a
-				href={globals().socialsHH.twitter.url}
-				alt={globals().socialsHH.twitter.alt}
-				target="_blank"
-			>
-				<Twitter size={40} />
+				<Twitter size={40} title={socialsHH.twitter.alt} />
 			</a>
 		</Section>
 	);
