@@ -43,7 +43,7 @@ export default function AboutPage() {
 					bio={globals().profilesHH.eddy.bio}
 				/>
 				<Profile
-					image="/static/images/james.jpg"
+					image="/static/images/james.png"
 					name={globals().profilesHH.james.name}
 					linkedin={globals().profilesHH.james.linkedin}
 					email={globals().profilesHH.james.email}

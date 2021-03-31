@@ -48,7 +48,7 @@ export default function globals() {
 			linkedin: "https://www.linkedin.com/in/james-lockwood/",
 			email: "ksjjl05@gmail.com",
 			bio:
-				"James is a Front End Developer and basd in Austin. Whether it's participating with Hispanic Hackers or Prospanica, he's dedicated to paying his skills forward to the next generation of techies. He love the outdoors, my black cat, cooking, and traveling around the United States. James is an alumni of Galvanize.",
+				"James is a Front End Developer and based in Austin. Whether it's participating with Hispanic Hackers or Prospanica, he's dedicated to paying his skills forward to the next generation of techies. He love the outdoors, my black cat, cooking, and traveling around the United States. James is an alumni of Galvanize.",
 		},
 		laura: {
 			name: "Laura Evans",
