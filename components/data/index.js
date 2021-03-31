@@ -40,27 +40,29 @@ export default function globals() {
 			name: "Eddy Reyes",
 			linkedin: "https://www.linkedin.com/in/ereyes01/",
 			email: "hispanichackersboard@gmail.com",
-			bio: "Founder/Organizer of Hispanic Hackers.",
+			bio:
+				"Eddy is the founder/organizer of Hispanic Hackers and expert technologist. He loves startup culture, spending time with the family, and a long time veteran of the industry.",
 		},
 		james: {
 			name: "James Lockwood",
 			linkedin: "https://www.linkedin.com/in/james-lockwood/",
 			email: "ksjjl05@gmail.com",
 			bio:
-				"My name is James Lockwood. I’m a Front End Developer and Austin is my base of operations. As an active participant in my local tech community, I love bringing people together. Whether it be with Hispanic Hackers or Prospanica, I’m dedicated to paying forward my skills to the next generation of techies. I love the outdoors, my black cat, cooking, and traveling around the United States.",
+				"James is a Front End Developer and basd in Austin. Whether it's participating with Hispanic Hackers or Prospanica, he's dedicated to paying his skills forward to the next generation of techies. He love the outdoors, my black cat, cooking, and traveling around the United States. James is an alumni of Galvanize.",
 		},
 		laura: {
 			name: "Laura Evans",
 			linkedin: "https://www.linkedin.com/in/lauraevans0218/",
 			email: "hispanichackersboard@gmail.com",
-			bio: "Insert bio here.",
+			bio:
+				"Laura loves to work with technology. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She's an alumni of Galvanize.",
 		},
 		tim: {
 			name: "Timothy Hoang",
 			linkedin: "https://www.linkedin.com/in/timothyhoang/",
 			email: "hispanichackersboard@gmail.com",
 			bio:
-				"Hi everyone, I'm Tim! I'm a developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. I enjoy sharing what I know and helping others suceed. I love coding, cryptocurrency, staying active, spending time outdoors, and traveling around the world. Feel free to connect with me on LinkedIn!",
+				"Tim is developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. He enjoys coding, cryptocurrency, nomadism, staying active, spending time outdoors, and traveling around the world. Tim is an alumni of Lambda School.",
 		},
 	};
 
@@ -68,99 +70,153 @@ export default function globals() {
 		2021: [
 			{
 				month: "January",
+				titleSlide: "jan2021.png",
 				name: "Hispanic Hackers Yearly Kickoff",
 				date: "January 26th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/275732760/",
+				slides:
+					"https://docs.google.com/presentation/d/1ElCA48-Fq1nrxSo-gCCYKhrk2rrjlrpy5cckKrwdIqg/edit?usp=sharing",
+				youtube: "https://youtu.be/xT7WHYT5A9s",
+				zoomChat:
+					"https://drive.google.com/file/d/1nBa7erqD5Q6IOQDlPW8CWh3w_4rxd-Fl/view?usp=sharing",
 			},
 			{
 				month: "February",
+				titleSlide: "feb2021.png",
 				name: "Learn to Code: React",
 				date: " February 23rd, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319236/",
+				slides:
+					"https://docs.google.com/presentation/d/1nZ-f7dQkbfG5r4mEiSihjBcnAscYj_LZqAXzi500peI/edit?usp=sharing",
+				youtube: "https://youtu.be/2mQlkfms_fg",
+				zoomChat:
+					"https://drive.google.com/file/d/1Jv7LyxAo4VK-Mz1GW8AV0AyovVsyyAwu/view?usp=sharing",
 			},
 			{
 				month: "March",
+				titleSlide: "mar2021.png",
 				name: "Whiteboarding in March",
 				date: "March 23rd, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319492/",
+				slides:
+					"https://docs.google.com/presentation/d/11zVtp_iAMqf0Nh-8BQaao_SEj9y3EXJN9qjI4OMeU70/edit?usp=sharing",
+				youtube: "https://youtu.be/cfP6gitRKg4",
+				zoomChat:
+					"https://drive.google.com/file/d/1BCRSuDFEqj5CIGLcrWHObX6PPgiC23hi/view?usp=sharing",
 			},
 			{
 				month: "April",
+				titleSlide: "",
 				name: "Demo Night",
 				date: "April 27th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319828/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "May",
+				titleSlide: "",
 				name: "Learn to Code: Python",
 				date: "May 25th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320052/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "June",
+				titleSlide: "",
 				name: "Resume and Interview Workshop",
 				date: "June 22nd, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320206/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "July",
+				titleSlide: "",
 				name: "How to Build a Startup",
 				date: "July 27th, 2021 ",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320212/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "August",
+				titleSlide: "",
 				name: "Whiteboarding in August",
 				date: "August 24th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320219/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "September",
+				titleSlide: "",
 				name: "Struggle before success",
 				date: "September 28th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320227/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "October",
+				titleSlide: "",
 				name: "Let's Co-Work",
 				date: "October 26th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320236/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "November",
+				titleSlide: "",
 				name: "Learn to Code: HTML/CSS/JS/Bootstrap",
 				date: "November 23rd, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320247/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 			{
 				month: "December",
+				titleSlide: "",
 				name: "Game event: Jackbox, Among Us",
 				date: "December 28th, 2021",
 				time: "7-9pm",
 				meetup:
 					"https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320255/",
+				slides: "",
+				youtube: "",
+				zoomChat: "",
 			},
 		],
 	};
