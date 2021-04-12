@@ -1,3 +1,16 @@
+Updated: 2021-4-3 TH
+
+Possible Future features:
+Adding our custom domain
+Instagram needs to be added to the nav links
+Page Responsiveness
+Adding dark/light mode toggle and additional stylings
+Adding testing libraries and checking PropTypes
+SEO auditing and Google Lighthouse
+Contact form (to remove our gmail addy to prevent spam)
+Adding more content: Blog section, Getting Started to Code section
+Job board or recruiter/candidates platform
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
