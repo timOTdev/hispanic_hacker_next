@@ -4,6 +4,8 @@ import {
   FaMeetup,
   FaYoutubeSquare,
   FaFilePowerpoint,
+  FaChalkboardTeacher,
+  FaGithub,
   FaComments,
 } from 'react-icons/fa';
 import Image from 'next/image';
@@ -42,6 +44,9 @@ const Youtube = styled(FaYoutubeSquare)`
 const Powerpoint = styled(FaFilePowerpoint)`
   color: #e86900;
 `;
+const Powerpoint2 = styled(FaChalkboardTeacher)`
+  color: #88ab75;
+`;
 const Chat = styled(FaComments)`
   color: #41abff;
 `;
@@ -72,7 +77,21 @@ export default function Events() {
             )}
             {event.slides ? (
               <a href={event.slides} target='_blank'>
-                <Powerpoint size={40} title='Powerpoint Slides' />
+                <Powerpoint size={40} title='Kickoff Powerpoint Slides' />
+              </a>
+            ) : (
+              ''
+            )}
+            {event.slides2 ? (
+              <a href={event.slides2} target='_blank'>
+                <Powerpoint2 size={40} title='Presentation Powerpoint Slides' />
+              </a>
+            ) : (
+              ''
+            )}
+            {event.github ? (
+              <a href={event.github} target='_blank'>
+                <FaGithub size={40} title='Youtube Replay' />
               </a>
             ) : (
               ''

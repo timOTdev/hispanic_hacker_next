@@ -9,8 +9,7 @@ export default function globals() {
       alt: 'Hispanic Hackers Youtube',
     },
     slack: {
-      url:
-        'https://hispanichackers.slack.com/join/shared_invite/zt-8mq8l0o5-8REvn1I_QhaIb2wkE4xHfQ#/',
+      url: 'https://hispanichackers.slack.com/join/shared_invite/zt-8mq8l0o5-8REvn1I_QhaIb2wkE4xHfQ#/',
       alt: 'Hispanic Hackers Slack',
     },
     instagram: {
@@ -40,29 +39,25 @@ export default function globals() {
       name: 'Eddy Reyes',
       linkedin: 'https://www.linkedin.com/in/ereyes01/',
       email: 'hispanichackersboard@gmail.com',
-      bio:
-        'Eddy is the founder/organizer of Hispanic Hackers and expert technologist. He loves startup culture, spending time with the family, and a long time veteran of the industry.',
+      bio: 'Eddy is the founder/organizer of Hispanic Hackers and expert technologist. He loves startup culture, spending time with the family, and a long time veteran of the industry.',
     },
     james: {
       name: 'James Lockwood',
       linkedin: 'https://www.linkedin.com/in/james-lockwood/',
       email: 'ksjjl05@gmail.com',
-      bio:
-        "James is a Front End Developer and based in Austin. Whether it's participating with Hispanic Hackers or Prospanica, he's dedicated to paying his skills forward to the next generation of techies. He love the outdoors, my black cat, cooking, and traveling around the United States. James is an alumni of Galvanize.",
+      bio: "James is a Front End Developer and based in Austin. Whether it's participating with Hispanic Hackers or Prospanica, he's dedicated to paying his skills forward to the next generation of techies. He love the outdoors, my black cat, cooking, and traveling around the United States. James is an alumni of Galvanize.",
     },
     laura: {
       name: 'Laura Evans',
       linkedin: 'https://www.linkedin.com/in/lauraevans0218/',
       email: 'hispanichackersboard@gmail.com',
-      bio:
-        "Laura loves to work with technology. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She's an alumni of Galvanize.",
+      bio: "Laura loves to work with technology. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She's an alumni of Galvanize.",
     },
     tim: {
       name: 'Timothy Hoang',
       linkedin: 'https://www.linkedin.com/in/timothyhoang/',
       email: 'hispanichackersboard@gmail.com',
-      bio:
-        'Tim is developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. He enjoys coding, cryptocurrency, nomadism, staying active, spending time outdoors, and traveling around the world. Tim is an alumni of Lambda School.',
+      bio: 'Tim is developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. He enjoys coding, cryptocurrency, nomadism, staying active, spending time outdoors, and traveling around the world. Tim is an alumni of Lambda School.',
     },
   };
 
@@ -126,15 +121,20 @@ export default function globals() {
       },
       {
         month: 'May',
-        titleSlide: '',
+        titleSlide: 'may2021.png',
         name: 'Learn to Code: Python',
         date: 'May 25th, 2021',
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320052/',
-        slides: '',
-        youtube: '',
-        zoomChat: '',
+        slides:
+          'https://docs.google.com/presentation/d/16T2ynTmmLiVs_xsfUUQjnKxZMo-DMqdbdDaeeov1oDA/edit?usp=sharing',
+        slides2:
+          'https://docs.google.com/presentation/d/15KnUkwMsO5ZrHN78LszrZEhcXgj9dUkiRZKzxuru1pA/edit?usp=sharing',
+        github: 'https://github.com/hispanichackersboard/learn_to_code_python',
+        youtube: 'https://youtu.be/Ido91ptAmEc',
+        zoomChat:
+          'https://drive.google.com/file/d/1y8qK7CaSuG9vxnJi0UjHs1FnJNVzRT9O/view?usp=sharing',
       },
       {
         month: 'June',
