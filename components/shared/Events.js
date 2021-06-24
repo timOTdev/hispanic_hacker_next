@@ -91,7 +91,7 @@ export default function Events() {
             )}
             {event.github ? (
               <a href={event.github} target='_blank'>
-                <FaGithub size={40} title='Youtube Replay' />
+                <FaGithub size={40} title='Github Repository' />
               </a>
             ) : (
               ''
