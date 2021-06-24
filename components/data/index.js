@@ -138,15 +138,17 @@ export default function globals() {
       },
       {
         month: 'June',
-        titleSlide: '',
+        titleSlide: 'june2021.png',
         name: 'Resume and Interview Workshop',
         date: 'June 22nd, 2021',
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320206/',
-        slides: '',
-        youtube: '',
-        zoomChat: '',
+        slides:
+          'https://docs.google.com/presentation/d/1OYoGM2nyts-x_zDEnAjXd23UVjlhKWpofW063Aw48jI/edit?usp=sharing',
+        youtube: 'https://youtu.be/aY5skuD5exA',
+        zoomChat:
+          'https://drive.google.com/file/d/1eMOeF-SLmBupw1esKHr3TNhnW4zCNUt9/view?usp=sharing',
       },
       {
         month: 'July',
