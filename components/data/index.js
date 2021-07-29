@@ -152,15 +152,17 @@ export default function globals() {
       },
       {
         month: 'July',
-        titleSlide: '',
+        titleSlide: 'july2021.png',
         name: 'How to Build a Startup',
-        date: 'July 27th, 2021 ',
+        date: 'July 27th, 2021',
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320212/',
-        slides: '',
-        youtube: '',
-        zoomChat: '',
+        slides:
+          'https://docs.google.com/presentation/d/1gRvqjDIvVELCspD7PHM3VdiQhPzITONa96wF3Kr7-PU/edit?usp=sharing',
+        youtube: 'https://youtu.be/sJJut2C6DqY',
+        zoomChat:
+          'https://drive.google.com/file/d/1DObyXndvU35cIFSvp7K9DqBij11kQWBL/view?usp=sharing',
       },
       {
         month: 'August',
