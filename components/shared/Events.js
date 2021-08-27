@@ -7,6 +7,7 @@ import {
   FaChalkboardTeacher,
   FaGithub,
   FaComments,
+  FaFolder
 } from 'react-icons/fa';
 import Image from 'next/image';
 
@@ -41,14 +42,8 @@ const Meetup = styled(FaMeetup)`
 const Youtube = styled(FaYoutubeSquare)`
   color: #f70000;
 `;
-const Powerpoint = styled(FaFilePowerpoint)`
-  color: #e86900;
-`;
-const Powerpoint2 = styled(FaChalkboardTeacher)`
-  color: #88ab75;
-`;
-const Chat = styled(FaComments)`
-  color: #41abff;
+const FaFolder1 = styled(FaFolder)`
+  color: #F8D775;
 `;
 
 export default function Events() {
@@ -73,43 +68,29 @@ export default function Events() {
                 <Meetup size={40} title='Meetup Event Page' />
               </a>
             ) : (
-              ''
-            )}
-            {event.slides ? (
-              <a href={event.slides} target='_blank'>
-                <Powerpoint size={40} title='Kickoff Powerpoint Slides' />
-              </a>
-            ) : (
-              ''
-            )}
-            {event.slides2 ? (
-              <a href={event.slides2} target='_blank'>
-                <Powerpoint2 size={40} title='Presentation Powerpoint Slides' />
-              </a>
-            ) : (
-              ''
-            )}
-            {event.github ? (
-              <a href={event.github} target='_blank'>
-                <FaGithub size={40} title='Github Repository' />
-              </a>
-            ) : (
-              ''
-            )}
+                ''
+              )}
             {event.youtube ? (
               <a href={event.youtube} target='_blank'>
                 <Youtube size={40} title='Youtube Replay' />
               </a>
             ) : (
-              ''
-            )}
-            {event.zoomChat ? (
-              <a href={event.zoomChat} target='_blank'>
-                <Chat size={40} title='Zoom Chat' />
+                ''
+              )}
+            {event.files2021 ? (
+              <a href={event.files2021} target='_blank'>
+                <FaFolder1 size={40} title='Associated Files' />
               </a>
             ) : (
-              ''
-            )}
+                ''
+              )}
+            {event.github ? (
+              <a href={event.github} target='_blank'>
+                <FaGithub size={40} title='Github Repository' />
+              </a>
+            ) : (
+                ''
+              )}
           </EventCardLinks>
           <p>
             <u>{event.name}</u>
