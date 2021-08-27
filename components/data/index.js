@@ -166,15 +166,17 @@ export default function globals() {
       },
       {
         month: 'August',
-        titleSlide: '',
-        name: 'Whiteboarding in August',
+        titleSlide: 'august2021.png',
+        name: 'Coding Interview Practice',
         date: 'August 24th, 2021',
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320219/',
-        slides: '',
-        youtube: '',
-        zoomChat: '',
+        slides:
+          'https://docs.google.com/presentation/d/1JXBSTeLCn_h2nxxP0ntAYMKPH3ByPrEuzPcfEZryCC8/edit?usp=sharing',
+        youtube: 'https://youtu.be/53nXbef0JXI',
+        zoomChat:
+          'https://drive.google.com/file/d/1GReRRa-CphHoyHA1ABpxkEgvABQLzfw8/view?usp=sharing',
       },
       {
         month: 'September',
