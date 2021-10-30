@@ -161,27 +161,27 @@ export default function globals() {
       },
       {
         month: 'September',
-        titleSlide: '',
-        name: 'Struggle before success',
+        titleSlide: 'september2021.png',
+        name: 'A Development Vehicle for Every Budget',
         date: 'September 28th, 2021',
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320227/',
         files2021:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
-        youtube: '',
+        youtube: 'https://youtu.be/1dpn-ab1EgM',
       },
       {
         month: 'October',
-        titleSlide: '',
-        name: "Let's Co-Work",
+        titleSlide: 'october2021.png',
+        name: 'The Struggles before the Success',
         date: 'October 26th, 2021',
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320236/',
         files2021:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
-        youtube: '',
+        youtube: 'https://youtu.be/QKiGu5J_fEU',
       },
       {
         month: 'November',
