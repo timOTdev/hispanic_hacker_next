@@ -1,4 +1,4 @@
-import globals from '../data';
+import globals from '../../assets/GlobalData';
 import styled from 'styled-components';
 import {
   FaMeetup,
@@ -7,7 +7,7 @@ import {
   FaChalkboardTeacher,
   FaGithub,
   FaComments,
-  FaFolder
+  FaFolder,
 } from 'react-icons/fa';
 import Image from 'next/image';
 
@@ -43,7 +43,7 @@ const Youtube = styled(FaYoutubeSquare)`
   color: #f70000;
 `;
 const FaFolder1 = styled(FaFolder)`
-  color: #F8D775;
+  color: #f8d775;
 `;
 
 export default function Events() {
@@ -68,29 +68,29 @@ export default function Events() {
                 <Meetup size={40} title='Meetup Event Page' />
               </a>
             ) : (
-                ''
-              )}
+              ''
+            )}
             {event.youtube ? (
               <a href={event.youtube} target='_blank'>
                 <Youtube size={40} title='Youtube Replay' />
               </a>
             ) : (
-                ''
-              )}
+              ''
+            )}
             {event.files2021 ? (
               <a href={event.files2021} target='_blank'>
                 <FaFolder1 size={40} title='Associated Files' />
               </a>
             ) : (
-                ''
-              )}
+              ''
+            )}
             {event.github ? (
               <a href={event.github} target='_blank'>
                 <FaGithub size={40} title='Github Repository' />
               </a>
             ) : (
-                ''
-              )}
+              ''
+            )}
           </EventCardLinks>
           <p>
             <u>{event.name}</u>
