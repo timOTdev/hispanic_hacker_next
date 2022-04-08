@@ -1,45 +1,40 @@
 import styled from 'styled-components';
-import Link from 'next/link';
 import SocialsHH from './SocialsHH';
 import Menus from './Menus';
 import { FcLike } from 'react-icons/fc';
 
-const Wrapper = styled.footer`
+const Section = styled.footer`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  background: var(--pageHeaderColor);
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 -8px 6px -6px black;
+  align-items: center;
   position: relative;
   bottom: 0;
   width: 100%;
-`;
-const Copyright = styled.div`
-  font-size: 2rem;
-  width: 10%;
+  background: ${({ theme }) => theme.backgroundContrast};
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 -8px 6px -6px black;
+  p {
+    text-align: center;
+    @media (min-width: 1440px) {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
 `;
 
 export default function Footer() {
   return (
-    <Wrapper>
-      <Copyright>
+    <Section>
+      <Menus />
+      <SocialsHH />
+      <div>
         <p>
           Made with coffee, cumbia, and care. With <FcLike /> in&nbsp;
           {new Date().getFullYear()}.
         </p>
-      </Copyright>
-      <SocialsHH>
-        <a href=''>Meetup</a>
-        <a href=''>Slack</a>
-        <a href=''>Youtube</a>
-        <a href=''>Instagram</a>
-      </SocialsHH>
-      <Menus>
-        <Link href='/events'>Events</Link>
-        <Link href='/about'>About</Link>
-        <Link href='/links'>Links</Link>
-      </Menus>
-    </Wrapper>
+      </div>
+    </Section>
   );
 }

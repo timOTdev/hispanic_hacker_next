@@ -9,19 +9,24 @@ import { createGlobalStyle } from 'styled-components';
 // @media (min-width: 1440px) {}
 // @media (min-width: 2560px) {}
 
-export const themeColors = {};
+export const colors = {
+  gallery: '#EEEEEE',
+  mineShaft: '#252525',
+  gray: '#3A3A3A',
+  shark: '#1C1F21',
+};
 
-export const darkTheme = {};
+export const darkTheme = {
+  fontColor: colors.gallery,
+  backgroundColor: colors.mineShaft,
+  backgroundContrast: colors.shark,
+  linkColor: colors.gray,
+};
 
 export const lightTheme = {};
 
 export const GlobalStyles = createGlobalStyle`
   html {
-    --grey: #3A3A3A;
-    --gray: var(--grey);
-    --pageHeaderColor: #1c1f21;
-    --pageContentColor: #252525;
-    --pageFontColor: #eeeeee;
     --maxWidth: 1000px;
     box-sizing: border-box;
     font-size: 62.5%;
@@ -30,19 +35,44 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: inherit;
   }
   body {
+    background: ${({ theme }) => theme.backgroundColor};
+    color: ${({ theme }) => theme.fontColor};
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
     font-size: 1.8rem;
-    color: var(--pageFontColor);
     line-height:2;
-    background: var(--pageContentColor);
   }
-  h1 { font-size: 2.8rem; }
-  h2 { font-size: 2.4rem; }
-  h3 { font-size: 2rem; }
+  h1 {
+    @media (min-width: 320px) {
+      font-size: 2.6rem;
+    }
+  }
+  h2 {
+    @media (min-width: 320px) {
+      font-size: 2.4rem;
+    }
+  }
+  h3 {
+    @media (min-width: 320px) {
+      font-size: 2.2rem;
+    }
+  }
+  h5 {
+    @media (min-width: 320px) {
+      font-size: 2rem;
+    }
+  }
+  h6 {
+    @media (min-width: 320px) {
+      font-size: 1.8rem;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+  }
   a {
-    color: var(---grey);
+    color: ${({ theme }) => theme.linkColor};
   }
   a:hover {
     text-decoration: underline;

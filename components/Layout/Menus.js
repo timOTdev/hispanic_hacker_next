@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import styled from 'styled-components';
+import Link from 'next/link';
 import {
   FcHome,
   FcPlanner,
@@ -9,14 +9,34 @@ import {
 
 const Section = styled.section`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  width: 25%;
-  font-size: 2rem;
-
+  text-align: center;
+  span {
+    flex: 1 1 100%;
+    padding: 1rem;
+    @media (min-width: 1024px) {
+      flex: 1 1 90%;
+    }
+  }
   span:hover {
     text-decoration: underline;
     cursor: pointer;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+    @media (min-width: 425px) {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  @media (min-width: 425px) {
+    flex-wrap: nowrap;
+  }
+  @media (min-width: 1440px) {
+    width: 30%;
   }
 `;
 

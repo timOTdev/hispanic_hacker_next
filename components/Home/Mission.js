@@ -1,22 +1,22 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
+const Section = styled.section`
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 0 auto;
   div {
-    margin: 2rem;
+    margin: 0 1rem;
   }
-  h3 {
-    font-size: 2.6rem;
-    text-align: center;
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
   }
 `;
+
 export default function Mission() {
   return (
-    <Div>
+    <Section>
       <div>
-        <h3>Help🧭</h3>
+        <h4>Help🧭</h4>
         <p>
           Hispanic Hackers helps cultivate diversity in the Tech Community
           through our informative and thought-provoking monthly meetups
@@ -26,7 +26,7 @@ export default function Mission() {
         </p>
       </div>
       <div>
-        <h3>Hack 🔭</h3>
+        <h4>Hack 🔭</h4>
         <p>
           Hispanic Hackers use technology as a conduit to empower our community.
           During our Hack series, we present topics relevant to Hispanics in
@@ -35,7 +35,7 @@ export default function Mission() {
         </p>
       </div>
       <div>
-        <h3>Hire ⚖️</h3>
+        <h4>Hire ⚖️</h4>
         <p>
           Hispanic Hackers serve as a liaison between companies hoping to hire a
           more diverse workforce and technology professionals searching for the
@@ -44,6 +44,6 @@ export default function Mission() {
           promoting diversity.
         </p>
       </div>
-    </Div>
+    </Section>
   );
 }

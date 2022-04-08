@@ -1,18 +1,23 @@
-import React from 'react';
-import Image from 'next/image';
 import styled from 'styled-components';
+import Image from 'next/image';
 
-const Div = styled.div`
+const Section = styled.section`
   text-align: center;
-  width: 70%;
   margin: 0 auto;
   img {
     border-radius: 3px;
   }
+  @media (min-width: 1024px) {
+    h4 {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
 `;
+
 export default function Intro() {
   return (
-    <Div>
+    <Section>
       <Image
         src='/static/images/meetup.jpg'
         alt='Hispanic Hacker Meetup'
@@ -20,12 +25,11 @@ export default function Intro() {
         height={533}
       />
       <h1>Welcome to Hispanic Hackers!</h1>
-      <h2>
+      <h4>
         Hispanic Hackers is an Austin-based community that empowers the Latinx
         tech community. We host events that involve helping, hacking, and
-        connect members in hiring. Feel free to check us out at our website to
-        learn more!
-      </h2>
-    </Div>
+        getting hired. Feel free to browse our website to learn more!
+      </h4>
+    </Section>
   );
 }

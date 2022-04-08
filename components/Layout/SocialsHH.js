@@ -12,15 +12,34 @@ import globals from '../../assets/GlobalData';
 
 const Section = styled.section`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  width: 30%;
-
+  text-align: center;
   a {
+    flex: 1 1 25%;
+    padding: 1rem;
     &:hover {
       transform: scale(1.2);
     }
+    @media (min-width: 768px) {
+      flex: 1 1 100%;
+    }
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+    @media (min-width: 1024px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+  }
+  @media (min-width: 1440px) {
+    width: 30%;
   }
 `;
 const Meetup = styled(FaMeetup)`
@@ -63,45 +82,45 @@ export default function Socials() {
   return (
     <Section>
       <a href={socialsHH.meetup.url} alt={socialsHH.meetup.alt} target='_blank'>
-        <Meetup size={40} title={socialsHH.meetup.alt} />
+        <Meetup title={socialsHH.meetup.alt} />
       </a>
       <a href={socialsHH.slack.url} alt={socialsHH.slack.alt} target='_blank'>
-        <Slack size={40} title={socialsHH.slack.alt} />
+        <Slack title={socialsHH.slack.alt} />
       </a>
       <a
         href={socialsHH.youtube.url}
         alt={socialsHH.youtube.alt}
         target='_blank'
       >
-        <Youtube size={40} title={socialsHH.youtube.alt} />
+        <Youtube title={socialsHH.youtube.alt} />
       </a>
       <a
         href={socialsHH.instagram.url}
         alt={socialsHH.instagram.alt}
         target='_blank'
       >
-        <Instagram size={40} title={socialsHH.instagram.alt} />
+        <Instagram title={socialsHH.instagram.alt} />
       </a>
       <a
         href={socialsHH.facebook.url}
         alt={socialsHH.facebook.alt}
         target='_blank'
       >
-        <Facebook size={40} title={socialsHH.facebook.alt} />
+        <Facebook title={socialsHH.facebook.alt} />
       </a>
       <a
         href={socialsHH.linkedin.url}
         alt={socialsHH.linkedin.alt}
         target='_blank'
       >
-        <LinkedIn size={40} title={socialsHH.linkedin.alt} />
+        <LinkedIn title={socialsHH.linkedin.alt} />
       </a>
       <a
         href={socialsHH.twitter.url}
         alt={socialsHH.twitter.alt}
         target='_blank'
       >
-        <Twitter size={40} title={socialsHH.twitter.alt} />
+        <Twitter title={socialsHH.twitter.alt} />
       </a>
     </Section>
   );
