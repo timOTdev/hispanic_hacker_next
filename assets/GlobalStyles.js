@@ -69,7 +69,7 @@ export const GlobalStyles = createGlobalStyle`
       font-size: 1.8rem;
     }
   }
-  p {
+  p, li {
     font-size: 1.4rem;
   }
   a {

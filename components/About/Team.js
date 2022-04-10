@@ -3,14 +3,29 @@ import styled from 'styled-components';
 import Profile from './Profile';
 import globals from '../../assets/GlobalData';
 
+const Section = styled.section`
+  text-align: center;
+`;
 const ExecutiveTeam = styled.section`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  @media (min-width: 768px) {
+    * {
+      flex: 1 1 50%;
+    }
+  }
+  @media (min-width: 1024px) {
+    * {
+      flex: 1 1 30%;
+      margin: 0 1rem;
+    }
+  }
 `;
 
 export default function Team() {
   return (
-    <div>
+    <Section>
       <h1>Meet the Executive Team</h1>
       <ExecutiveTeam>
         <Profile
@@ -28,11 +43,18 @@ export default function Team() {
           bio={globals().profilesHH.james.bio}
         />
         <Profile
-          image='/static/images/laura.jpg'
-          name={globals().profilesHH.laura.name}
-          linkedin={globals().profilesHH.laura.linkedin}
-          email={globals().profilesHH.laura.email}
-          bio={globals().profilesHH.laura.bio}
+          image='/static/images/lauraE.jpg'
+          name={globals().profilesHH.lauraE.name}
+          linkedin={globals().profilesHH.lauraE.linkedin}
+          email={globals().profilesHH.lauraE.email}
+          bio={globals().profilesHH.lauraE.bio}
+        />
+        <Profile
+          image='/static/images/lauraH.jpg'
+          name={globals().profilesHH.lauraH.name}
+          linkedin={globals().profilesHH.lauraH.linkedin}
+          email={globals().profilesHH.lauraH.email}
+          bio={globals().profilesHH.lauraH.bio}
         />
         <Profile
           image='/static/images/tim.jpg'
@@ -42,6 +64,6 @@ export default function Team() {
           bio={globals().profilesHH.tim.bio}
         />
       </ExecutiveTeam>
-    </div>
+    </Section>
   );
 }

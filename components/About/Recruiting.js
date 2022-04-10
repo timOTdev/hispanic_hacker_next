@@ -2,37 +2,57 @@ import styled from 'styled-components';
 import Image from 'next/image';
 import globals from '../../assets/GlobalData';
 
-const RecruitMessage = styled.h3`
+const Section = styled.h1`
   text-align: center;
-  font-size: 2rem;
   a {
     text-decoration: underline;
   }
+  @media (min-width: 2560px) {
+    margin: 0 auto;
+  }
 `;
 const Recruit = styled.section`
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.8rem;
+  text-align: left;
   ul {
-    max-width: 50%;
+    padding: 0;
+  }
+  li {
+    width: 90%;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    li {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1024px) {
+    display: flex;
+    li {
+      width: 80%;
+    }
+    * {
+      flex: 1 1 50%;
+      margin: 1rem;
+    }
   }
 `;
 
 export default function Recruiting() {
   return (
-    <div>
+    <Section>
       <h1>Join the Team or Get Involved</h1>
-      <RecruitMessage>
+      <p>
+        Reach out to us at{' '}
         <a
           src={globals().profilesHH.tim.email}
           href={`mailto:${globals().profilesHH.tim.email}`}
           target='_blank'
           rel='noopener noreferrer'
         >
-          Reach out to us at hispanichackersboard@gmail.com ya!
+          hispanichackersboard@gmail.com
         </a>
-        🤭
-      </RecruitMessage>
+        !
+      </p>
       <Recruit>
         <ul>
           <Image
@@ -41,10 +61,10 @@ export default function Recruiting() {
             width={846.5}
             height={481.5}
           />
-          <li>We’re open for new members to the leadership team</li>
-          <li>Speakers are welcome for tech and culture topics</li>
-          <li>Continuous iteration on improving our events and organization</li>
-          <li>Bring your phenomenal skills and we'll work with it</li>
+          <li>Become part of the executive team</li>
+          <li>Speakers always welcome for tech/culture topics</li>
+          <li>Improve our events and organization</li>
+          <li>Bring your unique skills</li>
         </ul>
         <ul>
           <Image
@@ -55,10 +75,10 @@ export default function Recruiting() {
           />
           <li>Gain recognition for future job role</li>
           <li>Great chance to develop leadership skills</li>
+          <li>Use coding skills for building the organization</li>
           <li>Access to the world-class Capital Factory facility</li>
-          <li>A chance to meet our mascots: El Chico, El Freddie</li>
         </ul>
       </Recruit>
-    </div>
+    </Section>
   );
 }

@@ -39,7 +39,7 @@ export default function globals() {
       name: 'Eddy Reyes',
       linkedin: 'https://www.linkedin.com/in/ereyes01/',
       email: 'hispanichackersboard@gmail.com',
-      bio: 'Eddy is the founder/organizer of Hispanic Hackers and expert technologist. He loves startup culture, spending time with the family, and a long time veteran of the industry.',
+      bio: 'Eddy is the founder/organizer of Hispanic Hackers and expert technologist. Eddy has deep knowledge with startups and tech organizations. He loves startup culture, spending time with the family, and a long time veteran of the industry.',
     },
     james: {
       name: 'James Lockwood',
@@ -47,17 +47,23 @@ export default function globals() {
       email: 'ksjjl05@gmail.com',
       bio: "James is a Front End Developer and based in Austin. Whether it's participating with Hispanic Hackers or Prospanica, he's dedicated to paying his skills forward to the next generation of techies. He love the outdoors, my black cat, cooking, and traveling around the United States. James is an alumni of Galvanize.",
     },
-    laura: {
+    lauraE: {
       name: 'Laura Evans',
       linkedin: 'https://www.linkedin.com/in/lauraevans0218/',
       email: 'hispanichackersboard@gmail.com',
-      bio: "Laura loves to work with technology. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She's an alumni of Galvanize.",
+      bio: "Laura loves to work with technology. Laura brings a unique perspective of working with the Army. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She's an alumni of Galvanize.",
+    },
+    lauraH: {
+      name: 'Laura Hoyos',
+      linkedin: 'https://www.linkedin.com/in/lauramhoyos/',
+      email: 'hispanichackersboard@gmail.com',
+      bio: "Laura enjoys working with organizations. She brings here socioly and political science education and volunteering experiences to the table. During her free time, she enjoys working with social media and socializing. She's currently at Apple.",
     },
     tim: {
       name: 'Timothy Hoang',
       linkedin: 'https://www.linkedin.com/in/timothyhoang/',
       email: 'hispanichackersboard@gmail.com',
-      bio: 'Tim is developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. He enjoys coding, cryptocurrency, nomadism, staying active, spending time outdoors, and traveling around the world. Tim is an alumni of Lambda School.',
+      bio: 'Tim is developer who pivoted from the medical field and work with Hispanic Hackers to promote inclusion and technology in the Austin area. He enjoys coding, trying new foods, staying active, spending time outdoors, and traveling around the world. Tim is an alumni of Lambda School.',
     },
   };
 
