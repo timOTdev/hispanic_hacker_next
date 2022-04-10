@@ -14,13 +14,14 @@ export const colors = {
   mineShaft: '#252525',
   gray: '#3A3A3A',
   shark: '#1C1F21',
+  mediumTurquoise: '#41cecf',
 };
 
 export const darkTheme = {
   fontColor: colors.gallery,
   backgroundColor: colors.mineShaft,
   backgroundContrast: colors.shark,
-  linkColor: colors.gray,
+  linkUnderline: colors.mediumTurquoise,
 };
 
 export const lightTheme = {};
@@ -72,9 +73,11 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 1.4rem;
   }
   a {
-    color: ${({ theme }) => theme.linkColor};
+    color: ${({ theme }) => theme.fontColor};
+    text-decoration: underline;
   }
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid ${({ theme }) => theme.linkUnderline};
   }
 `;

@@ -2,7 +2,7 @@ export default function Intro() {
   return (
     <div>
       <h1>Events Calendar 2021</h1>
-      <h3>
+      <h4>
         Events are hosted at the Capital Factory or Zoom. Visit us at{' '}
         <a
           href='https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/'
@@ -20,7 +20,7 @@ export default function Intro() {
           Slack
         </a>
         .
-      </h3>
+      </h4>
     </div>
   );
 }
