@@ -13,7 +13,13 @@ import globals from '../../assets/GlobalData';
 const Socials = styled.div`
   display: flex;
   justify-content: space-evenly;
-  width: 25%;
+  text-align: center;
+  a {
+    border-bottom: 2px solid ${({ theme }) => theme.backgroundColor};
+    :hover {
+      border-bottom: 2px solid ${({ theme }) => theme.linkUnderline};
+    }
+  }
 `;
 
 export default function SocialsCF() {
