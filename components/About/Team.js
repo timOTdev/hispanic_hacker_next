@@ -10,17 +10,6 @@ const ExecutiveTeam = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  @media (min-width: 768px) {
-    * {
-      flex: 1 1 50%;
-    }
-  }
-  @media (min-width: 1024px) {
-    * {
-      flex: 1 1 30%;
-      margin: 0 1rem;
-    }
-  }
 `;
 
 export default function Team() {

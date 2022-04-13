@@ -14,6 +14,12 @@ const Aside = styled.aside`
       border-bottom: 2px solid ${({ theme }) => theme.linkUnderline};
     }
   }
+  @media (min-width: 768px) {
+    flex: 1 1 50%;
+  }
+  @media (min-width: 1024px) {
+    flex: 1 1 30%;
+  }
   @media (min-width: 2560px) {
     p {
       width: 60%;
@@ -23,11 +29,14 @@ const Aside = styled.aside`
 `;
 const ProfileLinks = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 50%;
   margin: 0 auto;
   span {
     text-decoration: underline;
+  }
+  @media (min-width: 2560px) {
+    max-width: 30%;
   }
 `;
 const Image1 = styled(Image)`
