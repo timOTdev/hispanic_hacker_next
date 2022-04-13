@@ -51,13 +51,13 @@ export default function globals() {
       name: 'Laura Evans',
       linkedin: 'https://www.linkedin.com/in/lauraevans0218/',
       email: 'hispanichackersboard@gmail.com',
-      bio: "Laura loves to work with technology. Laura brings a unique perspective of working with the Army. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She's an alumni of Galvanize.",
+      bio: "Laura loves to work with technology. Laura brings a unique perspective of working with the Army. When she's not fiddling with code, she loves riding bikes, paddleboarding, and spoiling the pupper. She is an alumni of Galvanize.",
     },
     lauraH: {
       name: 'Laura Hoyos',
       linkedin: 'https://www.linkedin.com/in/lauramhoyos/',
       email: 'hispanichackersboard@gmail.com',
-      bio: "Laura enjoys working with organizations. She brings here socioly and political science education and volunteering experiences to the table. During her free time, she enjoys working with social media and socializing. She's currently at Apple.",
+      bio: "Laura enjoys working with organizations. She brings her sociology and political science background and also numerous volunteering experiences. During her free time, she enjoys working with social media and socializing. She's currently at Apple.",
     },
     tim: {
       name: 'Timothy Hoang',

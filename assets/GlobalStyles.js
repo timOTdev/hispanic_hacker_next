@@ -11,6 +11,8 @@ import { createGlobalStyle } from 'styled-components';
 
 export const colors = {
   gallery: '#EEEEEE',
+  alto: '#DDDDDD',
+  silver: '#CCCCCC',
   mineShaft: '#252525',
   gray: '#3A3A3A',
   shark: '#1C1F21',
@@ -24,7 +26,12 @@ export const darkTheme = {
   linkUnderline: colors.mediumTurquoise,
 };
 
-export const lightTheme = {};
+export const lightTheme = {
+  fontColor: colors.mineShaft,
+  backgroundColor: colors.gallery,
+  backgroundContrast: colors.silver,
+  linkUnderline: colors.mediumTurquoise,
+};
 
 export const GlobalStyles = createGlobalStyle`
   html {

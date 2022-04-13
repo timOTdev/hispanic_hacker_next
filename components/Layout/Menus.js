@@ -19,10 +19,10 @@ const Section = styled.section`
     @media (min-width: 1024px) {
       flex: 1 1 90%;
     }
-  }
-  span:hover {
-    text-decoration: underline;
-    cursor: pointer;
+    :hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
   svg {
     width: 30px;
@@ -30,6 +30,18 @@ const Section = styled.section`
     @media (min-width: 425px) {
       display: block;
       margin: 0 auto;
+    }
+  }
+  button {
+    font-size: 20px;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: ${({ theme }) => theme.backgroundContrast};
+    border: 2px solid ${({ theme }) => theme.backgroundContrast};
+    :hover {
+      border: 2px solid ${({ theme }) => theme.fontColor};
     }
   }
   @media (min-width: 425px) {
@@ -40,7 +52,7 @@ const Section = styled.section`
   }
 `;
 
-export default function Nav() {
+export default function Nav({ theme, toggleTheme }) {
   return (
     <Section>
       <Link href='/'>
@@ -67,6 +79,9 @@ export default function Nav() {
           &nbsp;Links
         </span>
       </Link>
+      <button onClick={() => toggleTheme(theme)}>
+        {theme == 'dark' ? <span>☀️</span> : <span>🌙</span>}
+      </button>
     </Section>
   );
 }

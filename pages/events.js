@@ -27,10 +27,10 @@ const Button = styled.button`
   }
 `;
 
-export default function EventsPage() {
+export default function EventsPage(props) {
   const [year, setYear] = useState(new Date().getFullYear());
   return (
-    <Layout>
+    <Layout {...props}>
       <Intro />
       <YearPicker>
         <hr />

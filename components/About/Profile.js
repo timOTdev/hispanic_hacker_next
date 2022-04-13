@@ -23,14 +23,11 @@ const Aside = styled.aside`
 `;
 const ProfileLinks = styled.div`
   display: flex;
-  width: 50%;
-  margin: 0 auto;
   justify-content: center;
+  max-width: 50%;
+  margin: 0 auto;
   span {
     text-decoration: underline;
-  }
-  @media (min-width: 320px) {
-    justify-content: space-between;
   }
 `;
 const Image1 = styled(Image)`
