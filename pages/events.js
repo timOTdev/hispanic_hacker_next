@@ -3,42 +3,16 @@ import styled from 'styled-components';
 import Layout from '../components/Layout';
 import Intro from '../components/Events/Intro';
 import Events from '../components/Events/Events';
+import YearPicker from '../components/Events/YearPicker';
 
-const YearPicker = styled.div`
-  margin: 0 auto;
-  text-align: center;
-  button {
-    margin: 1rem;
-  }
-  hr {
-    width: 20%;
-  }
-`;
-const Button = styled.button`
-  background: none;
-  border-radius: 5px;
-  padding: 5px;
-  color: ${({ theme }) => theme.linkUnderline};
-  border: 2px solid ${({ theme }) => theme.linkUnderline};
-  :hover {
-    cursor: pointer;
-    color: ${({ theme }) => theme.linkUnderline};
-    border: 2px solid ${({ theme }) => theme.fontColor};
-  }
-`;
-
-export default function EventsPage() {
+export default function EventsPage(props) {
   const [year, setYear] = useState(new Date().getFullYear());
   return (
-    <Layout>
+    <Layout {...props}>
       <Intro />
-      <YearPicker>
-        <hr />
-        <Button onClick={() => setYear('2022')}>2022</Button>
-        <Button onClick={() => setYear('2021')}>2021</Button>
-        <hr />
-      </YearPicker>
+      <YearPicker setYear={setYear} />
       <Events year={year} />
+      <YearPicker setYear={setYear} />
     </Layout>
   );
 }
