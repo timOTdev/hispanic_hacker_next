@@ -12,7 +12,7 @@ export default function Layout(props) {
     <main>
       <Header {...props} />
       <Section>{props.children}</Section>
-      <Footer />
+      <Footer {...props} />
     </main>
   );
 }
