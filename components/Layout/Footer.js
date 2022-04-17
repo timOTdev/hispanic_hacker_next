@@ -24,10 +24,10 @@ const Section = styled.footer`
   }
 `;
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     <Section>
-      <Menus />
+      <Menus {...props} />
       <SocialsHH />
       <div>
         <p>

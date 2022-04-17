@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import {
   FcHome,
+  FcNews,
   FcPlanner,
   FcConferenceCall,
   FcWorkflow,
@@ -59,6 +60,12 @@ export default function Nav({ theme, toggleTheme }) {
         <span>
           <FcHome />
           &nbsp;Home
+        </span>
+      </Link>
+      <Link href='/blog'>
+        <span>
+          <FcNews />
+          &nbsp;Blog
         </span>
       </Link>
       <Link href='/events'>
