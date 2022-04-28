@@ -1,10 +1,10 @@
 import Layout from '../components/Layout';
-import CapitalFactory from '../components/Links/CapitalFactory';
+import Links from '../components/Links';
 
 export default function LinksPage(props) {
   return (
     <Layout {...props}>
-      <CapitalFactory />
+      <Links />
     </Layout>
   );
 }

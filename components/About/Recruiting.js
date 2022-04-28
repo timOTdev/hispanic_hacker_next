@@ -3,7 +3,7 @@ import Image from 'next/image';
 import globals from '../../assets/GlobalData';
 
 const Section = styled.h1`
-  text-align: center;
+  text-align: left;
   a {
     text-decoration: underline;
   }
@@ -41,7 +41,8 @@ export default function Recruiting() {
   return (
     <Section>
       <h1>Join the Team or Get Involved</h1>
-      <p>
+      <hr />
+      {/* <p>
         Reach out to us at{' '}
         <a
           src={globals().profilesHH.tim.email}
@@ -52,7 +53,7 @@ export default function Recruiting() {
           hispanichackersboard@gmail.com
         </a>
         !
-      </p>
+      </p> */}
       <Recruit>
         <ul>
           <Image

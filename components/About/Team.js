@@ -4,18 +4,20 @@ import Profile from './Profile';
 import globals from '../../assets/GlobalData';
 
 const Section = styled.section`
-  text-align: center;
+  text-align: left;
 `;
 const ExecutiveTeam = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 2rem;
 `;
 
 export default function Team() {
   return (
     <Section>
       <h1>Meet the Executive Team</h1>
+      <hr />
       <ExecutiveTeam>
         <Profile
           image='/static/images/eddy.jpg'

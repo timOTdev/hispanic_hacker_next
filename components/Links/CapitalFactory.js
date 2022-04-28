@@ -1,26 +1,17 @@
 import styled from 'styled-components';
 import Image from 'next/image';
-import SocialsCF from './SocialsCF';
+import CapitalFactorySocials from './CapitalFactorySocials';
 
-const Section = styled.section`
-  text-align: center;
-  h1 {
-    text-align: left;
-  }
-  @media (min-width: 768px) {
-    span {
-      text-align: left;
-    }
-  }
+const Div = styled.div`
   @media (min-width: 1440px) {
     width: 70%;
     margin: 0 auto;
   }
 `;
+
 export default function CapitalFactory() {
   return (
-    <Section>
-      <h1>Links</h1>
+    <Div>
       <Image
         src='/static/images/capital_factory.png'
         alt='Capital Factory Logo'
@@ -29,7 +20,7 @@ export default function CapitalFactory() {
       />
       <p>Capital Factory</p>
       <p>701 Brazos St, Austin, TX 78701</p>
-      <SocialsCF />
+      <CapitalFactorySocials />
       <span>
         <h2>Mission</h2>
         <p>
@@ -48,6 +39,6 @@ export default function CapitalFactory() {
           Factory has been the most active investor in Texas since 2010.
         </p>
       </span>
-    </Section>
+    </Div>
   );
 }

@@ -2,6 +2,7 @@ export default function Intro() {
   return (
     <div>
       <h1>Events Calendar 2021</h1>
+      <hr />
       <h4>
         Events are hosted at the Capital Factory or Zoom. Visit us at{' '}
         <a
