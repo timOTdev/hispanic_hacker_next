@@ -22,7 +22,7 @@ const Socials = styled.div`
   }
 `;
 
-export default function SocialsCF() {
+export default function CapitalFactorySocials() {
   return (
     <Socials>
       <a

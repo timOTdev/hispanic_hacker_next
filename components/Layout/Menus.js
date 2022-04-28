@@ -20,9 +20,10 @@ const Section = styled.section`
     @media (min-width: 1024px) {
       flex: 1 1 90%;
     }
+    border: 2px solid ${({ theme }) => theme.backgroundContrast};
     :hover {
-      text-decoration: underline;
       cursor: pointer;
+      border-bottom: 2px solid ${({ theme }) => theme.linkUnderline};
     }
   }
   svg {
@@ -41,9 +42,6 @@ const Section = styled.section`
     text-decoration: none;
     color: ${({ theme }) => theme.backgroundContrast};
     border: 2px solid ${({ theme }) => theme.backgroundContrast};
-    :hover {
-      border: 2px solid ${({ theme }) => theme.fontColor};
-    }
   }
   @media (min-width: 425px) {
     flex-wrap: nowrap;

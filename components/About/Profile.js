@@ -8,12 +8,6 @@ const Aside = styled.aside`
   p {
     font-size: 1.8rem;
   }
-  a {
-    border-bottom: 2px solid ${({ theme }) => theme.backgroundColor};
-    :hover {
-      border-bottom: 2px solid ${({ theme }) => theme.linkUnderline};
-    }
-  }
   @media (min-width: 768px) {
     flex: 1 1 50%;
   }
@@ -29,15 +23,9 @@ const Aside = styled.aside`
 `;
 const ProfileLinks = styled.div`
   display: flex;
-  justify-content: space-between;
-  max-width: 50%;
+  justify-content: center;
   margin: 0 auto;
-  span {
-    text-decoration: underline;
-  }
-  @media (min-width: 2560px) {
-    max-width: 30%;
-  }
+  text-align: center;
 `;
 const Image1 = styled(Image)`
   height: 200%;
@@ -46,6 +34,9 @@ const Image1 = styled(Image)`
 `;
 const LinkedIn = styled(FaLinkedin)`
   color: #0073b1;
+  :hover {
+    transform: scale(1.2);
+  }
 `;
 
 export default function Profile(props) {
@@ -56,13 +47,6 @@ export default function Profile(props) {
       <ProfileLinks>
         <a href={props.linkedin} target='_blank'>
           <LinkedIn size={30} />
-        </a>
-        <a
-          href={`mailto:${props.email}`}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <FaEnvelope size={30} />
         </a>
       </ProfileLinks>
       <p>{props.bio}</p>

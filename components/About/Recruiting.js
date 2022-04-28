@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import Image from 'next/image';
-import globals from '../../assets/GlobalData';
+import ContactButton from '../lib/ContactButton';
 
 const Section = styled.h1`
-  text-align: center;
+  text-align: left;
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
   @media (min-width: 2560px) {
     margin: 0 auto;
@@ -41,18 +41,7 @@ export default function Recruiting() {
   return (
     <Section>
       <h1>Join the Team or Get Involved</h1>
-      <p>
-        Reach out to us at{' '}
-        <a
-          src={globals().profilesHH.tim.email}
-          href={`mailto:${globals().profilesHH.tim.email}`}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          hispanichackersboard@gmail.com
-        </a>
-        !
-      </p>
+      <hr />
       <Recruit>
         <ul>
           <Image
@@ -79,6 +68,7 @@ export default function Recruiting() {
           <li>Access to the world-class Capital Factory facility</li>
         </ul>
       </Recruit>
+      <ContactButton />
     </Section>
   );
 }
