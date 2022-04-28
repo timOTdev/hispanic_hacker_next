@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Contact from './Contact';
 import CapitalFactory from './CapitalFactory';
 
 const Section = styled.section`
@@ -20,8 +21,7 @@ const Section = styled.section`
 export default function Links() {
   return (
     <Section>
-      <h1>Links</h1>
-      <hr />
+      <Contact />
       <CapitalFactory />
     </Section>
   );
