@@ -1,19 +1,30 @@
-Updated: 2021-4-3 TH
+# Hispanic Hackers
 
-Possible Future features:
-Adding our custom domain
-Instagram needs to be added to the nav links
-Page Responsiveness
-Adding dark/light mode toggle and additional stylings
-Adding testing libraries and checking PropTypes
-SEO auditing and Google Lighthouse
-Contact form (to remove our gmail addy to prevent spam)
-Adding more content: Blog section, Getting Started to Code section
-Job board or recruiter/candidates platform
+- Hispanic Hackers is an Austin-based community that empowers the Latinx tech community. We host events that involve helping, hacking, and getting hired. Feel free to browse our website to learn more!
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- Technologies: next.js, styled components, react-icons, remark
+
+- Updated: 2022_04_28 by TH
+
+---
+
+## Features Log
+
+- [x] Adding our custom domain (2022 Jan)
+- [x] Mobile Responsiveness (2022 Apr)
+- [x] Adding dark/light mode toggle (2022 Apr)
+- [x] Add Blog Section (2022 Apr)
+- [x] Contact form to remove our gmail address (2022 Apr)
+- [ ] Add how to get started to code section
+- [ ] Adding testing libraries and checking PropTypes
+- [ ] SEO auditing and Google Lighthouse
+- [ ] Job board or recruiter/candidates platform (Long term)
+
+---
 
 ## Getting Started
+
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
