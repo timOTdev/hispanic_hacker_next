@@ -81,10 +81,6 @@ export const GlobalStyles = createGlobalStyle`
   }
   a {
     color: ${({ theme }) => theme.fontColor};
-    text-decoration: underline;
-  }
-  a:hover {
     text-decoration: none;
-    border-bottom: 2px solid ${({ theme }) => theme.linkUnderline};
   }
 `;
