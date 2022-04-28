@@ -20,7 +20,7 @@ const Section = styled.section`
   a {
     flex: 1 1 25%;
     padding: 1rem;
-    &:hover {
+    :hover {
       transform: scale(1.2);
     }
     @media (min-width: 768px) {
