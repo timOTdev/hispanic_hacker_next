@@ -102,13 +102,15 @@ export default function globals() {
       },
       {
         month: 'April',
-        titleSlide: '',
+        titleSlide: '2022_apr.png',
         name: 'Presenting Your Best Digital Self',
         date: 'April 26, 2022',
         time: '7-9 pm',
-        meetup: '',
-        files2021: '',
-        youtube: '',
+        meetup:
+          'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/285252378/',
+        files2021:
+          'https://drive.google.com/drive/folders/1VPys49vM96gvKX2QwB0gh2htgJhqSqWt',
+        youtube: 'https://youtu.be/oorQddzpxIk',
       },
       {
         month: 'May',
