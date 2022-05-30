@@ -90,8 +90,8 @@ export default function Events({ year }) {
             ) : (
               ''
             )}
-            {event.files2021 ? (
-              <a href={event.files2021} target='_blank'>
+            {event.files ? (
+              <a href={event.files} target='_blank'>
                 <FaFolder1 size={40} title='Associated Files' />
               </a>
             ) : (

@@ -72,7 +72,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/283373037/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/15-sWpO4R9mpz3zhEBcdrEcUyHiC2q7_I',
         youtube: '',
       },
@@ -84,7 +84,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/283916536/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/14uSRraW-aucxn8ypdlMDQfmDSLTdg1t7',
         youtube: 'https://www.youtube.com/watch?v=RPcNqHl3hjo',
       },
@@ -96,7 +96,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/284808333/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1qWbiEdDMK-pRb8EWZpd8VmXJ3UyEFJbl',
         youtube: 'https://www.youtube.com/watch?v=o3QTbTSCxrQ',
       },
@@ -108,19 +108,21 @@ export default function globals() {
         time: '7-9 pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/285252378/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1VPys49vM96gvKX2QwB0gh2htgJhqSqWt',
         youtube: 'https://youtu.be/oorQddzpxIk',
       },
       {
         month: 'May',
-        titleSlide: '',
+        titleSlide: '2022_may.png',
         name: 'Interview and Coding Practice',
-        date: 'May 2022',
-        time: 'TBD',
-        meetup: '',
-        files2021: '',
-        youtube: '',
+        date: 'May 27, 2022',
+        time: '7-9 PM',
+        meetup:
+          'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/285634988/',
+        files:
+          'https://drive.google.com/drive/folders/11mU02V71UNtzzIJPLLMrdNvLC0eWKG52?usp=sharing',
+        youtube: 'https://youtu.be/pL4p1QtB2KE',
       },
       {
         month: 'June',
@@ -129,7 +131,7 @@ export default function globals() {
         date: 'June 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -139,7 +141,7 @@ export default function globals() {
         date: 'July 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -149,7 +151,7 @@ export default function globals() {
         date: 'August 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -159,7 +161,7 @@ export default function globals() {
         date: 'September 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -169,7 +171,7 @@ export default function globals() {
         date: 'October 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -179,7 +181,7 @@ export default function globals() {
         date: 'November 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -189,7 +191,7 @@ export default function globals() {
         date: 'December 2022',
         time: 'TBD',
         meetup: '',
-        files2021: '',
+        files: '',
         youtube: '',
       },
     ],
@@ -202,7 +204,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/275732760/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/xT7WHYT5A9s',
       },
@@ -214,7 +216,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319236/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/2mQlkfms_fg',
       },
@@ -226,7 +228,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319492/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/cfP6gitRKg4',
       },
@@ -238,7 +240,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319828/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/lCIuijdzddg',
       },
@@ -250,7 +252,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320052/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         github: 'https://github.com/hispanichackersboard/learn_to_code_python',
       },
@@ -262,7 +264,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320206/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/aY5skuD5exA',
       },
@@ -274,7 +276,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320212/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/sJJut2C6DqY',
       },
@@ -286,7 +288,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320219/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/53nXbef0JXI',
       },
@@ -298,7 +300,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320227/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/1dpn-ab1EgM',
       },
@@ -310,7 +312,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320236/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/1T10laZB3e1PkrpSMb8dM0rpkFpK7oboS?usp=sharing',
         youtube: 'https://youtu.be/QKiGu5J_fEU',
       },
@@ -322,7 +324,7 @@ export default function globals() {
         time: '2pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320247/',
-        files2021: '',
+        files: '',
         youtube: '',
       },
       {
@@ -333,7 +335,7 @@ export default function globals() {
         time: '7-9pm',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320255/',
-        files2021:
+        files:
           'https://drive.google.com/drive/folders/195uEOM6CpvJRBNTcn06iHDlvtk7EgcL5',
         youtube: '',
       },
