@@ -69,7 +69,7 @@ export default function globals() {
         titleSlide: '2022_jan.png',
         name: 'New Year, New You',
         date: 'January 26, 2022',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/283373037/',
         files:
@@ -81,7 +81,7 @@ export default function globals() {
         titleSlide: '2022_feb.png',
         name: 'How To Negotiate Your Salary',
         date: 'February 23,2022',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/283916536/',
         files:
@@ -93,7 +93,7 @@ export default function globals() {
         titleSlide: '2022_mar.png',
         name: 'Latinas Working In Tech',
         date: 'March 30, 2022',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/284808333/',
         files:
@@ -105,7 +105,7 @@ export default function globals() {
         titleSlide: '2022_apr.png',
         name: 'Presenting Your Best Digital Self',
         date: 'April 26, 2022',
-        time: '7-9 pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/285252378/',
         files:
@@ -117,7 +117,7 @@ export default function globals() {
         titleSlide: '2022_may.png',
         name: 'Interview and Coding Practice',
         date: 'May 27, 2022',
-        time: '7-9 PM',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/285634988/',
         files:
@@ -126,13 +126,15 @@ export default function globals() {
       },
       {
         month: 'June',
-        titleSlide: '',
-        name: 'Job Fair',
-        date: 'June 2022',
-        time: 'TBD',
-        meetup: '',
-        files: '',
-        youtube: '',
+        titleSlide: '2022_jun.png',
+        name: 'Learn About Webpack',
+        date: 'June 29, 2022',
+        time: '7-9PM CST',
+        meetup:
+          'https://www.meetup.com/austin-hispanic-hackers-meetup/events/286445335/',
+        files:
+          'https://drive.google.com/drive/folders/1m8ou0RcRgJbDvzwNjZgM-n8XQXBe_A-6?usp=sharing',
+        youtube: 'https://youtu.be/AgGJK70TGwA',
       },
       {
         month: 'July',
@@ -201,7 +203,7 @@ export default function globals() {
         titleSlide: '2021_jan.png',
         name: 'Hispanic Hackers Yearly Kickoff',
         date: 'January 26th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/275732760/',
         files:
@@ -213,7 +215,7 @@ export default function globals() {
         titleSlide: '2021_feb.png',
         name: 'Learn to Code: React',
         date: ' February 23rd, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319236/',
         files:
@@ -225,7 +227,7 @@ export default function globals() {
         titleSlide: '2021_mar.png',
         name: 'Whiteboarding in March',
         date: 'March 23rd, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319492/',
         files:
@@ -237,7 +239,7 @@ export default function globals() {
         titleSlide: '2021_apr.png',
         name: 'Demo Night',
         date: 'April 27th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276319828/',
         files:
@@ -249,7 +251,7 @@ export default function globals() {
         titleSlide: '2021_may.png',
         name: 'Learn to Code: Python',
         date: 'May 25th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320052/',
         files:
@@ -261,7 +263,7 @@ export default function globals() {
         titleSlide: '2021_jun.png',
         name: 'Resume and Interview Workshop',
         date: 'June 22nd, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320206/',
         files:
@@ -273,7 +275,7 @@ export default function globals() {
         titleSlide: '2021_jul.png',
         name: 'How to Build a Startup',
         date: 'July 27th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320212/',
         files:
@@ -285,7 +287,7 @@ export default function globals() {
         titleSlide: '2021_aug.png',
         name: 'Coding Interview Practice',
         date: 'August 24th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320219/',
         files:
@@ -297,7 +299,7 @@ export default function globals() {
         titleSlide: '2021_sep.png',
         name: 'A Development Vehicle for Every Budget',
         date: 'September 28th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320227/',
         files:
@@ -309,7 +311,7 @@ export default function globals() {
         titleSlide: '2021_oct.png',
         name: 'The Struggles before the Success',
         date: 'October 26th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320236/',
         files:
@@ -332,7 +334,7 @@ export default function globals() {
         titleSlide: '2021_dec.png',
         name: 'End of Year Game Night Party',
         date: 'December 17th, 2021',
-        time: '7-9pm',
+        time: '7-9PM CST',
         meetup:
           'https://www.meetup.com/Austin-Hispanic-Hackers-Meetup/events/276320255/',
         files:
