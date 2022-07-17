@@ -146,12 +146,14 @@ export default function globals() {
       },
       {
         month: 'July',
-        titleSlide: '',
-        name: 'Hackathon',
-        date: 'July 2022',
-        time: 'TBD',
-        meetup: '',
-        files: '',
+        titleSlide: '2022_jul.png',
+        name: 'Get Running with JS Frameworks',
+        date: 'July 27, 2022',
+        time: '7-9PM CST',
+        meetup:
+          'https://www.meetup.com/austin-hispanic-hackers-meetup/events/287214069/',
+        files:
+          'https://drive.google.com/drive/folders/18auKYkjzGakJRw43vk6TQlzXKBXsUpk3?usp=sharing',
         youtube: '',
       },
       {
