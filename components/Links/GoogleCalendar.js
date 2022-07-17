@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Image from 'next/image';
+import globals from '../../assets/GlobalData';
 
 const Section = styled.section`
   h2 {
@@ -16,7 +17,10 @@ export default function GatherTown() {
       <h2>Google Calendar</h2>
       <hr />
       <p>Join the Hispanic Hackers Google Calender to follow our events!</p>
-      <a href='https://app.gather.town/invite?token=3AhQ8rrZA24acNgFk6qU6UkZD-70iOcu'>
+      <a
+        href={globals().socialsHH.googleCalender.url}
+        alt={globals().socialsHH.googleCalender.alt}
+      >
         <p>Join our calendar here</p>
       </a>
       <Image

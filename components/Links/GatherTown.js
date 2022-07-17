@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Image from 'next/image';
+import globals from '../../assets/GlobalData';
 
 const Section = styled.section`
   h2 {
@@ -17,8 +18,8 @@ export default function GatherTown() {
       <hr />
       <p>Visit our virtual gathering hub for events!</p>
       <a
-        href='https://app.gather.town/invite?token=3AhQ8rrZA24acNgFk6qU6UkZD-70iOcu
-'
+        href={globals().socialsHH.gatherTown.url}
+        alt={globals().socialsHH.gatherTown.alt}
       >
         <p>Click to visit our town</p>
       </a>
