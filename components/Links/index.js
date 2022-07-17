@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import GatherTown from './GatherTown';
 import Contact from './Contact';
 import CapitalFactory from './CapitalFactory';
 
@@ -21,6 +22,7 @@ const Section = styled.section`
 export default function Links() {
   return (
     <Section>
+      <GatherTown />
       <Contact />
       <CapitalFactory />
     </Section>
